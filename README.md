@@ -21,6 +21,6 @@ We begin with foundational work: implementing a `Vec3` class and understanding t
 Once done, we will start with some theory of basic data structures.
 
 👉 **Access the Week 1 tasks and instructions here:**
-[WEEK1/README.md]()
+[WEEK1/README.md](https://github.com/adityasanapala/SoC-Al-Gore-Rhythmic-Ascent/tree/main/Week%201)
 
 ---
