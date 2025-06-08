@@ -1,0 +1,21 @@
+Arrays:
+1.They follow contiguous memory allocation.
+2.They have a fixed size, we can define dynamic arrays which resize but  it is very costly.
+3.Each element has only memory for the data.
+4.As they are contiguous in memory allocation, so they are more cache friendly in accessing.
+5.For accessing any element, it requires a constant time O(1).
+6.All sorting algorithms are faster on this data structure and easy.
+7.If we talk about insertions, if we have to insert at the end it takes constant time, but if it is in the middle, then we have shift all other elements the it takes O(n).
+8.We use arrays when we need fast random access, memory efficiency and data size is fixed.
+
+
+
+Linked Lists:
+1.They are non contiguous(dynamic memory allocation).
+2.Size can grow or shrink very easily.
+3.It takes extra memory for pointer, one extra in singly linked lists and two extra in doubly linked lists.
+4.They are not cache friendly because their memory is scattered in the memory locations.
+5.If we want to travel to any particular element, then it takes O(n).
+6.Sorting algos are not suitable for linked lists.
+7.If we talk about insertions, if we have insert at the end, if we know the tail pointer then it takes O(1) other wise we have to travel and that takes O(n). Same in the middle also, if we know the previous pointer then it is O(1) other wise O(n).
+8.We use linked lists when insertions and deletions are occuring frequently, where dynamic resizing is required and memory can be fragamented.

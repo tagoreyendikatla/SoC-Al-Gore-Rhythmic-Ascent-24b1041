@@ -1,0 +1,5 @@
+We should choose Quick sort over Merge sort when our priorities are speed(unlike worst case)
+and memory efficiency.
+1.Quick sort has average case time complexity of O(n log n), so better than merge sort.
+2.Space complexity of Quick sort of stack space of recursion is O(log n), whereas for merge sort it is O(n).(we were talking about stack space of recursion)
+3.Quick sort's swaps are better than auxiliary arrays of merge sort's.

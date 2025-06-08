@@ -1,0 +1,19 @@
+Collision Resolution Techniques are used in hash tables for resolving collision 
+conflicts which occur when multiple keys hash to the same slot.
+There are two main approaches:
+1.Open Addressing(closed hashing)
+2.Separate Chaining(Open hashing) 
+
+1.Open Addressing:
+  1.The memory overhead is low because here no pointer are used.
+  2.The cache performance is better because of sequential memory access.
+  3.This performs poorly when load factor becomes high.
+  4.If we want to delete then it becomes tricky it requires tombstones and rehashing.
+  5.Implementation is easy.
+
+2.Separate Chaining:
+  1.The memorh overhead is high because we store linked list nodes.
+  2.The cache performance is worse because of scattered memory.
+  3.It handles high load factor better.
+  4.Deletions are also simple just remove from the list.
+  5.Implementation is more complex.

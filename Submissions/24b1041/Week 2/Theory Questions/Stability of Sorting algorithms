@@ -1,0 +1,10 @@
+A stable sorting algorithm maintains the relative order of equal elements.
+A sorting algorithm will be stable when we take care sorting by multiple 
+criteria, preserving meaningful order.
+
+1.Stability is achieved by avoiding unnecessary swaps, by maintaining order 
+during sorting, by using auxiliary structures.
+
+Bubble sort, Insertion sort, merge sort, timsort, counting sort are examples
+of stable algorithms. And Heap sort, Quick sort, selection sort, Shell sort are
+examples of unstable algorithms.
