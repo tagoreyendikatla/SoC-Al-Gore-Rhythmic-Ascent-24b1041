@@ -1,5 +1,5 @@
 mathematics, number theory, greedy algorithms and bit manipulation.
-# 🚀 Week 3: Mastering Mathematics for Competitive Programming
+# 🚀 Week 4: Mastering Mathematics for Competitive Programming
 
 This week, we dive into the essential mathematics and number theory concepts that form the backbone of competitive programming. Mastering these topics is a key step to leveling up your skills, particularly for contests like ICPC, which are well-known for problems centered on number theory, combinatorics, and advanced counting techniques.
 
