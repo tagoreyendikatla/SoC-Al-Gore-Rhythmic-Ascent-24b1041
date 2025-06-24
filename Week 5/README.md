@@ -1,4 +1,4 @@
-# 📚 Week 4: Dynamic Programming
+# 📚 Week 5: Dynamic Programming
 
 ## ✅ Objectives
 - Grasp the fundamental ideas behind **Dynamic Programming (DP)**.
