@@ -1,0 +1,61 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[utf8]{inputenc}
+
+\title{Report of WEEK 3}
+\author{
+    Y Tagore Ravindra Sree 
+}
+\date{} % Add date if needed
+
+\begin{document}
+\maketitle
+\section{Searching Algorithms}
+\subsection{Linear Search}
+\begin{itemize}
+    \item Checks each element one by one.
+    \item Works on unsorted lists.
+    \item Time Complexity: O(n) (worst and average case).
+\end{itemize}
+\subsection{Binary Search}
+\begin{itemize}
+    \item Works on sorted arrays/lists.
+    \item Uses a divide and conquer approach.
+    \item Time Complexity: O(log n) (worst and average case)
+\end{itemize}
+\subsection{Jump Search}
+\begin{itemize}
+    \item Works on sorted arrays.
+    \item Jumps in fixed steps, then performs linear search. Step size is square root of the target.
+    \item Time Complexity: O(sqrt(n))
+\end{itemize}
+\subsection{Exponential Search}
+\begin{itemize}
+    \item Works on sorted arrays.
+    \item Doubles the search range, then performs binary search.
+    \item Time Complexity: O(log n)
+\end{itemize}
+\subsection{Ternary Search}
+\begin{itemize}
+    \item Similar to binary search but divides the array into three parts.
+    \item Works on sorted arrays.
+    \item Time Complexity: O(log n)
+\end{itemize}
+\subsection{Interpolation Search}
+\begin{itemize}
+    \item Works on sorted, uniformly distributed data.
+    \item Esitmates the postion of the key(better than binary search for some cases).
+    \item Time Complexity: O(log log n)
+\end{itemize}
+\subsection{DFS}
+\begin{itemize}
+    \item Used for tree/graph traversal.
+    \item Explores as far as possible before backtracking.
+    \item Time Complexity:O(V+E)(vertices+edges).
+\end{itemize}
+\subsection{BFS}
+\begin{itemize}
+    \item Also for tree/graph traversal.
+    \item Explores all neighbors at the current level before moving deeper.
+    \item Time Complexity:O(V+E)
+\end{itemize}
+\end{document}
